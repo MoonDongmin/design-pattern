@@ -1,4 +1,4 @@
-package Chapter03;
+package Chapter03.InputTest;
 
 import java.io.*;
 

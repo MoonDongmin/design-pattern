@@ -1,10 +1,7 @@
-package Chapter03;
- 
-public class Whip extends CondimentDecorator {
-	public Whip(Beverage beverage) {
-		this.beverage = beverage;
-	}
- 
+package Chapter03.StarbussEx2;
+
+public class Whip implements CondimentDecorator {
+
 	public String getDescription() {
 		return beverage.getDescription() + ", Whip";
 	}

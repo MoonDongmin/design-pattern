@@ -1,6 +1,4 @@
-package Chapter03;
-
-import Chapter03.Beverage;
+package Chapter03.Starbuzz;
 
 public abstract class CondimentDecorator extends Beverage {
 	Beverage beverage;
