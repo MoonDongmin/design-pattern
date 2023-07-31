@@ -86,7 +86,7 @@ public class GumballMachine {
 		StringBuffer result = new StringBuffer();
 		result.append("\n주식회사 왕뽑기");
 		result.append("\n자바로 돌아가는 최신형 뽑기 기계");
-		result.append("\nI남은 개수: " + count);
+		result.append("\n남은 개수: " + count);
 		if (count != 1) {
 			result.append("개");
 		}
